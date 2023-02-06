@@ -1,0 +1,40 @@
+"Total $"
+print("Total amount of money overall")
+t_s = int(input("Total Signups: "))
+c_s = int(input("Cost Per Person: "))
+total = t_s * c_s
+print("Total amount of money: " + "---> " + str(total) + " <---")
+print("---------------------------------------------")
+
+"How much profit do you want"
+profit = float(input("How much profit do you want to make? Enter a decimal. For example 3/4 profit would be 0.75: "))
+money_made = total * profit
+payout = (total - money_made) / 3
+
+print("---------------------------------------------")
+print("You will make: " + str(money_made))
+print("---------------------------------------------")
+
+"Total Division1"
+print("Payout for division1")
+print("Payout for division1 in total needs to be: " + str(payout))
+print("1st needs to receive: " + str(round(payout * 0.5)))
+print("2nd needs to receive: " + str(round(payout * 0.3)))
+print("3rd needs to receive: " + str(round(payout * 0.2)))
+print("---------------------------------------------")
+
+"Total Division2"
+print("Payout for division2")
+print("Payout for division2 in total needs to be: " + str(payout))
+print("1st needs to receive: " + str(round(payout * 0.5)))
+print("2nd needs to receive: " + str(round(payout * 0.3)))
+print("3rd needs to receive: " + str(round(payout * 0.2)))
+print("---------------------------------------------")
+
+"Total Division3"
+print("Payout for division3")
+print("Payout for division3 in total needs to be: " + str(payout))
+print("1st needs to receive: " + str(round(payout * 0.5)))
+print("2nd needs to receive: " + str(round(payout * 0.3)))
+print("3rd needs to receive: " + str(round(payout * 0.2)))
+print("---------------------------------------------")
